@@ -1,0 +1,40 @@
+body {
+    background-color: #fdff70;
+    font-family: "Exo 2", sans-serif;
+  }
+
+  .title-font {
+    font-family: "Merriweather Sans", sans-serif;
+    text-align: center;
+  }
+
+  .button {
+    padding: 10px 10px;
+    background-color: #1c3738;
+    border: 5px;
+    border-radius: 7px;
+    color: white;
+    text-decoration: none;
+    width: 40%;
+    margin: auto;
+  }
+
+  .image-circle {
+    border-radius: 50%;
+    display: block;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-me {
+    text-decoration: underline;
+  }
+
+  .lists {
+    size: 60px;
+  }
+
+  .destaques {
+    font-size: 20px;
+  }
