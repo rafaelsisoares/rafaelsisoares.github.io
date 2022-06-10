@@ -14,6 +14,7 @@ body {
   .title-font {
     font-family: "Merriweather Sans", sans-serif;
     text-align: center;
+    font-size: 90%;
   }
 
   .button {
@@ -27,20 +28,49 @@ body {
     margin: auto;
   }
 
+  .cabecalho {
+    border: 1px solid blue;
+    height: 30%;
+  }
+
   .image-circle {
     border-radius: 50%;
-    display: block;
     width: 25%;
-    margin-left: auto;
-    margin-right: auto;
+    
+  }
+
+  .desc {
+    border: 1px solid black;
+    height: 30%;
+    width: 75%;
+    position: absolute;
+    display: inline;
+    padding: 20px;
+    margin: auto;
+    vertical-align:bottom;
+    align-items: center;
+
   }
 
   .about-me {
     text-decoration: underline;
   }
 
-  .lists {
+  .lists #listaSS {
     size: 60px;
+  }
+
+  .lista1 {
+    border: 1px solid green;
+    width: 49%;
+    
+  }
+
+  .lista2 {
+    border: 1px solid red;
+    width: 50%;
+    float: right;
+    margin: auto;
   }
 
   .destaques {
