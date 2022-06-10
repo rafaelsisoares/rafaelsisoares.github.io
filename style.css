@@ -32,12 +32,10 @@ body {
   }
 
   .botoes {
-    border: 1px solid white;
     padding: 10px;
   }
 
   .cabecalho {
-    border: 1px solid blue;
     height: 30%;
   }
 
@@ -49,7 +47,6 @@ body {
   }
 
   .desc {
-    border: 1px solid black;
     height: 30%;
     width: 75%;
     position: absolute;
@@ -69,8 +66,7 @@ body {
 
   }
 
-  .lista1 {
-    border: 1px solid green;
+  .lista1 {   
     width: 49%;
     display: block;
     font-family: monospace;
@@ -78,7 +74,6 @@ body {
   }
 
   .lista2 {
-    border: 1px solid red;
     width: 49%;
     font-family: 'Mali', cursive;
 
