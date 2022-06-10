@@ -1,11 +1,23 @@
 body {
-    background-color: #fdff70;
+    background-image: url(imagens/pexels-negative-space-97077.jpg);
+    background-size: cover;
+    background-position: 80%;
     font-family: "Exo 2", sans-serif;
+    color: azure;
+  }
+
+  a:hover {
+    background-color: #254e50;
+  }
+
+  a:active {
+    color: black;
   }
 
   .title-font {
     font-family: "Merriweather Sans", sans-serif;
     text-align: center;
+    
   }
 
   .button {
@@ -19,20 +31,52 @@ body {
     margin: auto;
   }
 
+  .botoes {
+    padding: 10px;
+  }
+
+  .cabecalho {
+    height: 30%;
+  }
+
   .image-circle {
-    border-radius: 50%;
-    display: block;
-    width: 25%;
-    margin-left: auto;
-    margin-right: auto;
+    border-radius: 50% 10%;
+    width: 15%;
+    padding: 20px;
+    
+  }
+
+  .desc {
+    height: 30%;
+    width: 75%;
+    position: absolute;
+    display: inline;
+    padding: 20px;
+    margin: auto;
+    
+
   }
 
   .about-me {
     text-decoration: underline;
   }
 
-  .lists {
+  .lists #listaSS {
     size: 60px;
+
+  }
+
+  .lista1 {   
+    width: 49%;
+    display: block;
+    font-family: monospace;
+    
+  }
+
+  .lista2 {
+    width: 49%;
+    font-family: 'Mali', cursive;
+
   }
 
   .destaques {
