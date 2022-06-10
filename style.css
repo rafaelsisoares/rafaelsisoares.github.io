@@ -65,7 +65,7 @@ body {
 
   .lista1 {   
     width: 49%;
-    display: block;
+    display: inline-block;
     font-family: monospace;
     
   }
@@ -73,6 +73,7 @@ body {
   .lista2 {
     width: 49%;
     font-family: 'Mali', cursive;
+    display: inline-block;
 
   }
 
