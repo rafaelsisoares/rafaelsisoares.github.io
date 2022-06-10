@@ -17,7 +17,6 @@ body {
   .title-font {
     font-family: "Merriweather Sans", sans-serif;
     text-align: center;
-    
   }
 
   .button {
@@ -53,8 +52,6 @@ body {
     display: inline;
     padding: 20px;
     margin: auto;
-    
-
   }
 
   .about-me {
