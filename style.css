@@ -1,6 +1,9 @@
 body {
-    background-color: #fdff70;
+    background-image: url(imagens/pexels-negative-space-97077.jpg);
+    background-size: cover;
+    background-position: 80%;
     font-family: "Exo 2", sans-serif;
+    color: azure;
   }
 
   a:hover {
@@ -14,7 +17,7 @@ body {
   .title-font {
     font-family: "Merriweather Sans", sans-serif;
     text-align: center;
-    font-size: 90%;
+    
   }
 
   .button {
@@ -28,14 +31,20 @@ body {
     margin: auto;
   }
 
+  .botoes {
+    border: 1px solid white;
+    padding: 10px;
+  }
+
   .cabecalho {
     border: 1px solid blue;
     height: 30%;
   }
 
   .image-circle {
-    border-radius: 50%;
-    width: 25%;
+    border-radius: 50% 10%;
+    width: 15%;
+    padding: 20px;
     
   }
 
@@ -47,8 +56,7 @@ body {
     display: inline;
     padding: 20px;
     margin: auto;
-    vertical-align:bottom;
-    align-items: center;
+    
 
   }
 
@@ -58,19 +66,21 @@ body {
 
   .lists #listaSS {
     size: 60px;
+
   }
 
   .lista1 {
     border: 1px solid green;
     width: 49%;
+    display: block;
+    font-family: monospace;
     
   }
 
   .lista2 {
     border: 1px solid red;
-    width: 50%;
-    float: right;
-    margin: auto;
+    width: 49%;
+
   }
 
   .destaques {
