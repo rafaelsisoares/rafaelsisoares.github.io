@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: monospace;
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: seagreen;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  font-family: Kdam Thmor Pro, sans-serif;
+  color: azure;
+}
+
+#minha_foto {
+  width: 15%;
+  margin-top: 110px;
+  display: inline-block;
+  border: 5px solid blanchedalmond;
+  border-radius: 50% 5%;
+}
+
+.past {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.future {
+  display: inline-block;
+  background-color: lightgrey;
+  margin: auto;
+  padding: 10px;
+}
+
+.lado-esquerdo {
+  font-size: 20px;
+  display: inline-block;
+}
+
+.lado-direito {
+  border: 1px solid grey;
+  line-height: 25px;
+  font-size: 16px;
+  display: inline-block;
+  width: 25%;
+  vertical-align: top;
+}
+
+.lado-direito ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.lado-direito ul li:nth-child( 2n + 1 ) {
+  background-color: lightgrey;
+}
+
+.cursos {
+  border: 2px solid gray;
+  width: 90%;
+}
+
+.cursos th {
+  background-color: lightblue;
+}
+
+.cursos tr:nth-of-type( 3 ) {
+  background-color: lightgray;
+}
+
+footer {
+  text-align: right;
+}
