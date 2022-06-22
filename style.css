@@ -1,8 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
+  background-color: rgb(220, 240, 220);
+  font-family: "Exo 2", sans-serif;
+  /* color: azure; */
+  }
+
+  header {
     background-image: url(imagens/pexels-negative-space-97077.jpg);
     background-size: cover;
-    background-position: 80%;
-    font-family: "Exo 2", sans-serif;
+    height: 300px;
+    width: 105%;
     color: azure;
   }
 
@@ -12,6 +23,11 @@ body {
 
   a:active {
     color: black;
+  }
+
+  .divisao {
+    border: 3px solid rgb(220, 240, 220);
+    margin-bottom: 150px;
   }
 
   .title-font {
@@ -27,29 +43,36 @@ body {
     color: white;
     text-decoration: none;
     width: 40%;
-    margin: auto;
+    margin-left: 120px;
+    margin-top: 15px;
   }
 
   .botoes {
     padding: 10px;
   }
 
-  .cabecalho {
+  /* .cabecalho {
+    border: 1px solid black;
     height: 30%;
-  }
+  } */
 
   .image-circle {
-    border-radius: 50% 10%;
+    border: 5px solid rgb(220, 240, 220);
+    border-radius: 20% 20%;
     width: 15%;
-    padding: 20px;
-    
+    /* display: inline-block; */
+    position: absolute;
+    top: 130px;
+    left: 580px;
+    animation-fill-mode: forwards;
   }
 
   .desc {
-    height: 30%;
-    width: 75%;
-    position: absolute;
-    display: inline;
+    border: 3px solid white;
+    background-color: rgb(220, 240, 240);
+    /* height: 30%; */
+    width: 100%;
+    /* display: inline-block; */
     padding: 20px;
     margin: auto;
   }
@@ -58,25 +81,38 @@ body {
     text-decoration: underline;
   }
 
-  .lists #listaSS {
-    size: 60px;
+  .lists li {
+    font-size: 23px;
+    list-style-type: none;
+  }
 
+  .lista1 h3, .lista2 h3 {
+    font-size: 30px;
   }
 
   .lista1 {   
-    width: 49%;
+    background-color: rgb(220, 240, 200);
+    width: 40%;
     display: inline-block;
     font-family: monospace;
-    
+    margin-left: 70px;
   }
 
   .lista2 {
-    width: 49%;
+    background-color: rgb(220, 210, 240);
+    width: 40%;
     font-family: 'Mali', cursive;
     display: inline-block;
-
+    vertical-align: top;
+    margin-left: 40px;
   }
 
-  .destaques {
-    font-size: 20px;
-  }
+footer {
+  border: 3px solid white;
+  background-color: rgb(220, 240, 240);
+  margin-top: 10px;
+}
+
+#blogs {
+  padding: 10px;
+}
