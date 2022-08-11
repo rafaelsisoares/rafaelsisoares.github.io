@@ -1,9 +1,19 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
+    background-color: azure;
+    padding: 10px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+main {
+    width: 95%;
+    margin: auto;
+    background-color: rgb(225, 255, 255);
     padding: 10px;
 }
 
