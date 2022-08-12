@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Memes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header-container">
+      <h1>Meme Generator</h1>
+    </header>
+    <main>
+      <section class="control-container">
+        <label for="text-input">Texto:</label>
+        <input
+          type="text"
+          name="texto"
+          maxlength="60"
+          id="text-input"
+          placeholder="Escreva um texto para inserir no meme."
+        /><br /><br />
+        <label for="meme-insert">Imagem:</label>
+        <input type="file" name="imagem" id="meme-insert" />
+      </section>
+      <section id="meme-image-container" class="preview">
+        <p id="meme-text"></p>
+        <img alt="Crie seu meme" id="meme-image" />
+      </section>
+      <h2>Altere a borda:</h2>
+      <section class="button-container">
+        <button id="fire">Fire &#128293;</button>
+        <button id="water">Water &#128167;</button>
+        <button id="earth">Earth &#127811;</button>
+      </section> <br />
+      <h2>Memes pré prontos:</h2>
+      <section class="memes-container">
+        <div>
+          <img src="imgs/meme1.png" alt="Meme do Messi bugado" id="meme-1" />
+        </div>
+        <div>
+          <img
+            src="imgs/meme2.png"
+            alt="Imagem da garotinha sorrindo enquanto a casa pega fogo"
+            id="meme-2"
+          />
+        </div>
+        <div>
+          <img
+            src="imgs/meme3.png"
+            alt="Imagem do Kiko olhando para a camera"
+            id="meme-3"
+          />
+        </div>
+        <div>
+          <img
+            src="imgs/meme4.png"
+            alt="Imagem do Julius olhando sério"
+            id="meme-4"
+          />
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

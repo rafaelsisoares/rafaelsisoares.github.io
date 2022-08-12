@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('pexels-miguel-á-padriñán-194098.jpg');
+  background-size: cover;
+  font-family: Montserrat Alternates, sans-serif;
+}
+
+main , #title {
+  text-align: center;
+}
+
+main p {
+  padding: 10px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+#title {
+  padding: 15px;
+  font-size: 60px;
+}
+
+#rgb-color {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.ball {
+  border: 1px solid black;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+
+.ball:hover {
+  border: 2px solid black;
+}
+
+@media screen and ( max-width : 1000px ) {
+
+  body {
+    background-color: lightblue;
+    background-image: url('');
+  }
+
+  button {
+    padding: 15px 40px;
+  }
+
+  #title {
+    font-size: 45px;
+  }
+
+  #rgb-color {
+    font-size: 30px;
+  }
+
+  #score , #answer {
+    font-size: 25px;
+    margin: 10px;
+  }
+
+  .ball {
+    width: 70px;
+    height: 70px;
+  }
+}
