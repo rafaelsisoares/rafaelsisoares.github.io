@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Classes que serão adicionadas aleatóriamente pelo JavaScript */
+.newspaper {
+  background-color: antiquewhite;
+  font-family: Times New Roman, serif;
+  font-weight: 700;
+}
+
+.magazine1 {
+  background-color: teal;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.magazine2 {
+  background-image: url('images/pink-pattern.png');
+  color: fuchsia;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+}
+
+.medium {
+  font-size: 20px;
+  padding: 8px;
+}
+
+.big {
+  font-size: 30px;
+  padding: 10px;
+}
+
+.reallybig {
+  font-size: 40px;
+  padding: 15px;
+}
+
+.rotateleft {
+  transform: matrix(0.996195, -0.0871557, 0.0871557, 0.996195, 0, 0);
+}
+
+.rotateright {
+  transform: matrix(0.996195, 0.0871557, -0.0871557, 0.996195, 0, 0);
+}
+
+.skewleft {
+  transform: matrix(1, 0, 0.176327, 1, 0, 0);
+}
+
+.skewright {
+  transform: matrix(1, 0, -0.176327, 1, 0, 0);
+}
+
+/* Estilização */
+header {
+  background-color: lightsteelblue;
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  background-color: rgb(250, 240, 245);
+}
+
+input {
+  padding: 5px;
+  width: 50%;
+  margin-top: 10px;
+}
+
+button {
+  padding: 5px 20px;
+  margin: 15px;
+}
+
+#carta-gerada {
+  margin-top: 20px;
+}
+
+#carta-contador {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.count-container {
+  border: 1px solid black;
+  width: 5%;
+  margin: 10px auto;
+}

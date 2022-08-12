@@ -1,0 +1,86 @@
+/* Classes adicionadas a página por meio de JavaScript */
+.color {
+  border: 1px solid black;
+  border-radius: 100%;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: auto;
+  padding: 10px;
+}
+
+.color0 {
+  background-color: black;
+}
+
+.color1 {
+  background-color: red;
+}
+
+.color2 {
+  background-color: blue;
+}
+
+.color3 {
+  background-color: green;
+}
+
+.pixel {
+  border: 1px solid black;
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+}
+
+.cut {
+  background-color: transparent;
+  height: 42px;
+}
+
+.white {
+  background-color: white;
+}
+
+/* Estilização */
+body {
+  background-image: url('https://images.pexels.com/photos/1158682/pexels-photo-1158682.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+}
+
+main {
+  width: 60%;
+  height: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+main h1 {
+  font-family: Rubik, sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  color: darkslateblue;
+}
+
+#pixel-board {
+  margin-top: 10px;
+}
+
+#color-palette {
+  padding: 10px;
+}
+
+#clear-board {
+  background-color: honeydew;
+  font-size: 20px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+
+#generate-board {
+  margin-left: 5px;
+}
+
+.color:hover {
+  padding: 15px;
+}
